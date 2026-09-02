@@ -27,16 +27,16 @@ links:
   - icon: at-symbol
     url: mailto:YANGH8@livemail.uthscsa.edu
     label: E-mail Me
-  - icon: github
+  - icon: brands/github
     url: https://github.com/YangHuijie
     label: GitHub
-  - icon: linkedin
+  - icon: brands/linkedin
     url: https://www.linkedin.com/in/huijie-yang-07b393322/
     label: LinkedIn
-  - icon: google-scholar
+  - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=g_i_WPEAAAAJ&hl=en
     label: Google Scholar
-  - icon: orcid
+  - icon: academicons/orcid
     url: https://orcid.org/0000-0000-0000-0000
     label: ORCID
 
