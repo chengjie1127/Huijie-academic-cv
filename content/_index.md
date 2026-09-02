@@ -12,7 +12,7 @@ sections:
       text: ''
       button:
         text: Download CV
-        url: uploads/Huijie Yang CV.pdf
+        url: uploads/Huijie-Yang-CV.pdf
       headings:
         about: ''
         education: ''
