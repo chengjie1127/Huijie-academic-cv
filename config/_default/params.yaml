@@ -13,16 +13,17 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   identity:
     # Site name - shown in navbar, footer, copyright, and browser title by default
-    name: "Your Name"
+    name: "Huijie Yang"
     # Legal entity for copyright notices (defaults to name if not set)
-    organization: ""
+    organization: "UT Health Science Center San Antonio"
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "Ph.D. Student in Integrated Biomedical Sciences"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by HugoBlox
-      Kit. Easily create your personal academic website."
+    description: "Academic website of Huijie Yang, Ph.D. student studying computational
+      biology, multi-omics integration, and cancer genomics at UT Health Science
+      Center San Antonio."
     # Social accounts (used for meta tags like Twitter Cards)
     social:
       twitter: "GoOwnable" # Twitter/X handle for Twitter Cards (without @)

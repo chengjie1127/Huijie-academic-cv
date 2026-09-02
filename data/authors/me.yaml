@@ -2,115 +2,186 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  display: Huijie Yang
+  given: Huijie
+  family: Yang
+  alternate:
+  pronunciation: ''
+  pronouns: she/her
+postnominals: []
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "🔬"
+role: Ph.D. Student in Integrated Biomedical Sciences
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Huijie Yang is a Ph.D. student in Integrated Biomedical Sciences at UT Health
+  Science Center San Antonio, working in Dr. Yu Luan's lab. Her research focuses
+  on computational biology, multi-omics data integration, and single-cell
+  transcriptomics to understand cancer genomics, 3D chromatin organization,
+  and disease mechanisms in hepatocellular carcinoma, aging, and pancreatitis.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: UT Health Science Center San Antonio
+    url: https://www.uthscsa.edu/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
+    url: mailto:YANGH8@livemail.uthscsa.edu
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+  - icon: github
+    url: https://github.com/YangHuijie
+    label: GitHub
+  - icon: linkedin
+    url: https://www.linkedin.com/in/huijie-yang-07b393322/
+    label: LinkedIn
+  - icon: google-scholar
+    url: https://scholar.google.com/citations?user=g_i_WPEAAAAJ&hl=en
+    label: Google Scholar
+  - icon: orcid
+    url: https://orcid.org/0000-0000-0000-0000
+    label: ORCID
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Computational biology
+  - Multi-omics data integration
+  - Single-cell transcriptomics
+  - Genetic variation & epigenomics
+  - 3D chromatin organization
+  - Cancer genomics
+  - Hepatocellular carcinoma
+  - Aging
+  - Pancreatitis
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: Ph.D. in Integrated Biomedical Sciences
+    institution: UT Health Science Center San Antonio
+    start: 2024-08-01
+    end: ''
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      GPA: 4.0/4.0
+  - degree: Master of Medicine (Internal Medicine)
+    institution: Central South University, Second Xiangya Hospital
+    start: 2020-09-01
+    end: 2023-07-31
+    summary: |
+      GPA: 3.30/4.0
+  - degree: Bachelor of Medicine (Clinical Medicine)
+    institution: University of South China
+    start: 2015-09-01
+    end: 2020-06-30
+    summary: |
+      GPA: 3.78/4.0. Obtained Certificate of Licensed Practising Physician in China (2021).
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Project Leader
+    org: UT Health Science Center San Antonio — Dr. Yu Luan Lab
+    start: 2025-11-01
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
+      Integrative multi-omics analysis of epigenetic and 3D genome regulation in
+      MET- and MYC-driven hepatocellular carcinoma. Mapped the regulatory
+      architecture of the tumor microenvironment by integrating Hi-C, RNA-seq, and
+      ATAC-seq data; constructed TF regulatory networks using PECA.
+  - role: Project Leader
+    org: UT Health Science Center San Antonio — Dr. Yu Luan & Dr. Ellen Kraig
+    start: 2025-05-01
+    summary: |
+      Characterizing rapamycin-responsive myeloid population in aging. Performed
+      scRNA-seq analysis on CD11b+ PBMC cells and WGCNA on CD14+ monocytes,
+      supporting NIH R21 grant submission.
+  - role: Major Researcher
+    org: UT Health Science Center San Antonio — Dr. Yu Luan & Dr. Pei Wang
+    start: 2025-02-01
+    summary: |
+      Identification and functional characterization of pancreatitis risk variants.
+      Integrated GWAS SNPs with ATAC-seq, ChIP-seq, and Hi-C data to prioritize
+      functional SNPs and reveal 3D chromatin mechanisms in pancreatitis.
+  - role: Project Leader
+    org: UT Health Science Center San Antonio — Dr. Yu Luan & Dr. Luzhe Sun
+    start: 2024-10-01
+    summary: |
+      Single-cell RNA sequencing reveals tumor progression and microenvironment
+      features in immune-hot and immune-cold hepatocellular carcinoma (manuscript
+      under preparation). Identified SOX4 and HK2 as potential markers linking
+      oncogenic signaling to immune evasion.
+  - role: Major Researcher
+    org: UT Health Science Center San Antonio — Dr. Guangming Zhong
+    start: 2023-09-01
+    end: 2024-08-31
+    summary: |
+      Biological mechanisms of Chlamydia-gut interactions. Characterized intestinal
+      immune cell populations using immunofluorescence and flow cytometry in
+      knockout mouse models.
+  - role: Major Researcher
+    org: Central South University — Dr. Yang Xiao
+    start: 2021-05-01
+    end: 2023-05-31
+    summary: |
+      Mechanism of immune cells involved in diabetic cardiomyopathy. Conducted
+      snRNA-seq analysis and experimental validation, revealing macrophage-fibroblast
+      communication in myocardial fibrosis; targeting PDGFC as a therapeutic approach.
+  - role: Project Leader
+    org: Central South University — Dr. Zhuowei Hu
+    start: 2020-10-01
+    end: 2021-06-30
+    summary: |
+      Intestinal microbiota and pathogenesis of hypertension. Explored combined
+      therapeutic effects of berberine and stachyose in hypertension models.
+  - role: Clinical Intern
+    org: Nanhua Hospital, University of South China
+    start: 2018-03-01
+    end: 2018-12-31
+  - role: Clinical Intern
+    org: The First People's Hospital of Huaihua
+    start: 2019-01-01
     end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
 
 skills:
-  - name: Technical Skills
+  - name: Bioinformatics & Data Analysis
     items:
+      - label: scRNA-seq
+        level: 5
+      - label: Bulk RNA-seq
+        level: 5
+      - label: ATAC-seq
+        level: 4
+      - label: ChIP-seq
+        level: 4
+      - label: Hi-C
+        level: 4
+  - name: Programming
+    items:
+      - label: R
+        level: 5
       - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
-        level: 4
-  - name: Research & Communication
+        level: 3
+  - name: Experimental Skills
     items:
-      - label: Academic Writing
-        level: 5
-      - label: Conference Presentations
+      - label: Animal handling
         level: 4
-      - label: Grant Proposals
+      - label: Cell culture & isolation
+        level: 4
+      - label: Flow cytometry
+        level: 4
+      - label: IF/IHC, qPCR, WB, ELISA
         level: 4
 
 languages:
   - name: English
+    level: 4
+    label: Professional
+  - name: Chinese
     level: 5
     label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: Honorable Mention, PhD Student Poster Category
+    awarder: Mays Cancer Center Research Symposium, San Antonio, TX
+    date: "2026-02-01"
+    icon: hero/trophy
+  - title: Exceptional Poster Presentation Award
+    awarder: Mays Cancer Center Joint T32 Retreat, San Antonio, TX
+    date: "2026-05-01"
+    icon: hero/trophy
+  - title: David Carrillo Memorial Fellowship Award
+    awarder: Cell Systems & Anatomy Retreat, San Antonio, TX
+    date: "2026-01-01"
     icon: hero/trophy
