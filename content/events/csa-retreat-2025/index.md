@@ -10,4 +10,9 @@ event_all_day: true
 authors:
   - me
 featured: false
+image:
+  focal_point: Top
+links:
+  - type: poster
+    url: poster.pdf
 ---

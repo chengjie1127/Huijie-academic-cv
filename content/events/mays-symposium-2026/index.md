@@ -10,8 +10,13 @@ event_all_day: true
 authors:
   - me
 featured: false
+image:
+  focal_point: Top
 awards:
   - name: Honorable Mention, PhD Student Poster Category
     level: winner
     date: "2026"
+links:
+  - type: poster
+    url: poster.pdf
 ---

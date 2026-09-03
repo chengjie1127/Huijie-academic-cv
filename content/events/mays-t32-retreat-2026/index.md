@@ -10,6 +10,11 @@ event_all_day: true
 authors:
   - me
 featured: true
+image:
+  focal_point: Top
+links:
+  - type: poster
+    url: poster.pdf
 ---
 
 Exceptional Poster Presentation Award recipient.
