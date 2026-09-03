@@ -12,6 +12,10 @@ authors:
 featured: true
 image:
   focal_point: Top
+awards:
+  - name: Honorable Mention
+    level: winner
+    date: "2026"
 links:
   - type: poster
     url: poster.pdf

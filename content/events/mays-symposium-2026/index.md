@@ -13,7 +13,7 @@ featured: false
 image:
   focal_point: Top
 awards:
-  - name: Honorable Mention, PhD Student Poster Category
+  - name: Honorable Mention
     level: winner
     date: "2026"
 links:
