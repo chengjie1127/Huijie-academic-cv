@@ -13,11 +13,7 @@ status:
   icon: "🔬"
 role: Ph.D. Student in Integrated Biomedical Sciences
 bio: |
-  Huijie Yang is a Ph.D. student in Integrated Biomedical Sciences at UT Health
-  Science Center San Antonio, working in Dr. Yu Luan's lab. Her research focuses
-  on computational biology, multi-omics data integration, and single-cell
-  transcriptomics to understand cancer genomics, 3D chromatin organization,
-  and disease mechanisms in hepatocellular carcinoma, aging, and pancreatitis.
+  Huijie Yang is a Ph.D. student in Integrated Biomedical Sciences at UT Health Science Center San Antonio, working in Dr. Yu Luan's lab. Her research focuses on computational biology, multi-omics data integration, and single-cell transcriptomics to understand cancer genomics, 3D chromatin organization, and disease mechanisms in hepatocellular carcinoma, aging, and pancreatitis.
 
 affiliations:
   - name: UT Health Science Center San Antonio
@@ -28,7 +24,7 @@ links:
     url: mailto:YANGH8@livemail.uthscsa.edu
     label: E-mail Me
   - icon: brands/github
-    url: https://github.com/YangHuijie
+    url: https://github.com/Huijie-1
     label: GitHub
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/huijie-yang-07b393322/
@@ -37,7 +33,7 @@ links:
     url: https://scholar.google.com/citations?user=g_i_WPEAAAAJ&hl=en
     label: Google Scholar
   - icon: academicons/orcid
-    url: https://orcid.org/0000-0000-0000-0000
+    url: https://orcid.org/0009-0005-0073-4834
     label: ORCID
 
 interests:
@@ -156,7 +152,7 @@ skills:
   - name: Experimental Skills
     items:
       - label: Animal handling
-        level: 4
+        level: 5
       - label: Cell culture & isolation
         level: 4
       - label: Flow cytometry
