@@ -68,4 +68,6 @@ sections:
           - events
     design:
       view: card
+      # Show the full poster in the card (no aggressive crop). Uses Fit + object-contain.
+      fill_image: false
 ---

@@ -17,4 +17,4 @@ links:
     url: poster.pdf
 ---
 
-<img src="poster.svg" alt="CSA Annual Retreat 2026 poster" style="width: 100%; max-width: 1000px; height: auto;" />
+<!-- <img src="poster.svg" alt="CSA Annual Retreat 2026 poster" style="width: 100%; max-width: 1000px; height: auto;" /> -->
