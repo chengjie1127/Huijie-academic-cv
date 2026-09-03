@@ -1,0 +1,42 @@
+{{/*
+  Override: Get website favicon/icon
+
+  Auto-detects from assets/media/:
+    1. icon.svg (preferred)
+    2. icon.png
+    3. icon.jpg / icon.jpeg
+
+  Input: size (int) - Only used for raster processing
+  Output: dict with resource, type, is_svg
+*/}}
+
+{{ $size := . | default 32 }}
+{{ $result := dict "resource" nil "type" "" "is_svg" false }}
+
+{{ $icon_svg := resources.Get "media/icon.svg" }}
+{{ if $icon_svg }}
+  {{ $result = dict "resource" $icon_svg "type" "image/svg+xml" "is_svg" true }}
+{{ else }}
+  {{ $icon_raster := resources.Get "media/icon.png" }}
+  {{ if not $icon_raster }}
+    {{ $icon_raster = resources.Get "media/icon.jpg" }}
+  {{ end }}
+  {{ if not $icon_raster }}
+    {{ $icon_raster = resources.Get "media/icon.jpeg" }}
+  {{ end }}
+
+  {{ if $icon_raster }}
+    {{ $icon_resized := $icon_raster.Fill (printf "%sx%s Center" (string $size) (string $size)) }}
+    {{ $result = dict "resource" $icon_resized "type" $icon_resized.MediaType.Type "is_svg" false }}
+  {{ else }}
+    {{ $logo_png := resources.Get "media/logo.png" }}
+    {{ if $logo_png }}
+      {{ $icon_from_logo := $logo_png.Fill (printf "%sx%s Center" (string $size) (string $size)) }}
+      {{ $result = dict "resource" $icon_from_logo "type" $icon_from_logo.MediaType.Type "is_svg" false }}
+    {{ else }}
+      {{ warnf "No favicon found. Please add assets/media/icon.svg, icon.png, or icon.jpg" }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return $result }}

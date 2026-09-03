@@ -13,7 +13,7 @@ featured: true
 image:
   focal_point: Top
 awards:
-  - name: Exceptional Presentation
+  - name: Exceptional Poster Presentation Award recipient
     level: winner
     date: "2026"
 links:
