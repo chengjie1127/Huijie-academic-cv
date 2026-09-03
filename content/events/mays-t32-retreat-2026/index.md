@@ -13,7 +13,7 @@ featured: true
 image:
   focal_point: Top
 awards:
-  - name: Honorable Mention
+  - name: Exceptional Presentation
     level: winner
     date: "2026"
 links:
